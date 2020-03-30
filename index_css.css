@@ -1,0 +1,186 @@
+/* CSS Document */
+
+/* Main CSS */
+html, body {
+	margin: 0;
+    background-color: darkslategrey;
+    overflow: hidden;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.bg-main {
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+.txt-main {
+    color: white;
+    z-index: 2;
+    width: 97.6%;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 65px;
+	float: inherit;
+	margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+h2 {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 45px;
+	float: inherit;
+	margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+p {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    font-size: 22px;
+}
+
+.txt-left {
+    text-align: left;
+    font-size: 24px;
+    padding-left: 5px;
+}
+
+.txt-row p {
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.txt-img {
+    display: inline-block;
+    float: left;
+}
+
+/* Navbar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+    overflow: hidden;
+    position: sticky;
+    background-color: rgb(119,4,39); /* Fallback color */
+    background-color: rgba(119,4,39,0.90); /* Black w/opacity/see-through */
+}
+
+li {
+    font-size: 30px;
+}
+
+li a {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+/* Configs */
+.bg-home {
+    background-image: url("images/bg-home.jpg");
+    height: 100%;
+}
+
+.bg-about {
+    background-image: url("images/bg-about.jpg");
+    height: 195%;
+}
+
+.bg-land {
+    background-image: url("images/bg-land.jpg");
+    height: 210%;   
+}
+
+.bg-water {
+    background-image: url("images/bg-water.jpg");
+    height: 175%;   
+}
+
+.bg-rope {
+    background-image: url("images/bg-rope.jpg");
+    height: 175%;   
+}
+
+
+
+.title-else {
+    width: 80%;
+    transform: translate(-50%, -175%);
+}
+
+.txt-about {
+    transform: translate(-50%, -11%);
+}
+
+.txt-land {
+   transform: translate(-50%, -10%);  
+}
+
+.txt-water {
+    transform: translate(-50%, -13%);
+}
+
+.txt-rope {
+    transform: translate(-50%, -13%); 
+}
+
+.color-home {
+    background-color: rgb(171,7,33);
+    border: 3px solid #440203;
+}
+
+.color-about {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    border: 3px solid #23589c;
+}
+
+.color-land {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    border: 3px solid #20bf55;
+}
+
+.color-water {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    border: 3px solid #0e3b43;
+}
+
+.color-rope {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    border: 3px solid #2c8c61;
+}
+.navleft {
+    float: left;
+}
+
+.navright {
+    float: right;
+}
