@@ -7,8 +7,16 @@ html, body {
     overflow: hidden;
 }
 
-.clearfix {
-    overflow: auto;
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.logo {
+    display: inline-block;
+    float: left;
+    margin-left: 150px;
 }
 
 .bg-main {
@@ -31,9 +39,9 @@ html, body {
 
 h1 {
     font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-	font-size: 65px;
+	font-size: 100px;
 	float: inherit;
-	margin-top: 35px;
+	margin-top: 60px;
     margin-bottom: 35px;
 }
 
@@ -42,7 +50,7 @@ h2 {
 	font-size: 45px;
 	float: inherit;
 	margin-top: 35px;
-    margin-bottom: 35px;
+    margin-bottom: 15px;
 }
 
 p {
@@ -71,8 +79,8 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 250px;
+    padding-right: 250px;
     overflow: hidden;
     position: sticky;
     background-color: rgb(119,4,39); /* Fallback color */
@@ -93,7 +101,7 @@ li a {
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: #B1B1B1;
 }
 
 .active {
@@ -179,8 +187,11 @@ li a:hover {
 }
 .navleft {
     float: left;
+    margin-right: 150px;
 }
 
 .navright {
     float: right;
+    margin-left: 150px;
 }
+
