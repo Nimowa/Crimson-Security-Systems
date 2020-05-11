@@ -38,7 +38,7 @@ html, body {
 }
 
 .parent {
-    background-color: orangered;
+    background-color: grey;
     background-image: url("images/Index 1.png");
     background-attachment: fixed;
     background-position: center;
@@ -90,7 +90,27 @@ html, body {
     padding-left: 2%;
 }
 
-.slant-img {
+.footer {
+    text-align: center;
+}
+
+.contact-main {
+    background-color: black;
+    height: 450px;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.contact-body {
+    font-size: 20px;
+    text-align: center;
+    border: solid red 5px;
+    color: white;
+    background-color: black;
+    height: 350px;
+    width: 550px;
+    margin: auto;
 }
 
 h1 {
