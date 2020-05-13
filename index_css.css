@@ -145,11 +145,6 @@ p {
     margin-bottom: 25px;
 }
 
-.txt-img {
-    display: inline-block;
-    float: left;
-}
-
 /* Navbar */
 ul {
     list-style-type: none;
@@ -158,7 +153,6 @@ ul {
     padding-left: 250px;
     padding-right: 250px;
     overflow: hidden;
-    position: sticky;
     background-color: rgb(119,4,39); /* Fallback color */
     background-color: rgba(119,4,39,0.90); /* Black w/opacity/see-through */
 }
@@ -185,88 +179,15 @@ li a:hover {
 }
 
 /* Configs */
-.bg-home {
-    background-image: url("images/bg-home.jpg");
-    height: 100%;
-}
-
-.bg-about {
-    background-image: url("images/bg-about.jpg");
-    height: 195%;
-}
-
-.bg-land {
-    background-image: url("images/bg-land.jpg");
-    height: 210%;   
-}
-
-.bg-water {
-    background-image: url("images/bg-water.jpg");
-    height: 175%;   
-}
-
-.bg-rope {
-    background-image: url("images/bg-rope.jpg");
-    height: 175%;   
-}
-
-
-
-.title-else {
-    width: 80%;
-    transform: translate(-50%, -175%);
-}
-
-.txt-about {
-    transform: translate(-50%, -11%);
-}
-
-.txt-land {
-   transform: translate(-50%, -10%);  
-}
-
-.txt-water {
-    transform: translate(-50%, -13%);
-}
-
-.txt-rope {
-    transform: translate(-50%, -13%); 
-}
 
 .color-home {
     background-color: rgb(171,7,33);
     border: 3px solid #440203;
 }
 
-.color-about {
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-    border: 3px solid #23589c;
-}
-
-.color-land {
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-    border: 3px solid #20bf55;
-}
-
-.color-water {
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-    border: 3px solid #0e3b43;
-}
-
-.color-rope {
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-    border: 3px solid #2c8c61;
-}
 .navleft {
     float: left;
-    margin-right: 150px;
-}
+    display: block;
+    margin-left: 120px;
 
-.navright {
-    float: right;
-    margin-left: 150px;
 }
