@@ -13,20 +13,9 @@ html, body {
   display: table;
 }
 
-.logo {
-    display: inline-block;
-    float: left;
-    margin-left: 150px;
-}
-
-.bg-main {
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    margin: 0;
+.color-home {
+    background-color: rgb(171,7,33);
+    border: 3px solid #440203;
 }
 
 .txt-main {
@@ -37,7 +26,13 @@ html, body {
     text-align: center;
 }
 
-.parent {
+.logo {
+    display: inline-block;
+    float: left;
+    margin-left: 150px;
+}
+
+.slant-parent {
     background-color: grey;
     background-image: url("images/Index 1.png");
     background-attachment: fixed;
@@ -94,12 +89,20 @@ html, body {
     text-align: center;
 }
 
-.contact-main {
+.darkbg {
     background-color: black;
     height: 450px;
     width: 100%;
     padding-top: 100px;
     padding-bottom: 50px;
+}
+
+.video-darkbg {
+    background-color: black;
+    height: 450px;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 150px;
 }
 
 .contact-body {
@@ -110,6 +113,17 @@ html, body {
     background-color: black;
     height: 350px;
     width: 550px;
+    margin: auto;
+}
+
+.videos-body {
+    font-size: 20px;
+    text-align: center;
+    border: solid red 5px;
+    color: white;
+    background-color: black;
+    height: 450px;
+    width: 750px;
     margin: auto;
 }
 
@@ -134,18 +148,19 @@ p {
     font-size: 22px;
 }
 
-.txt-left {
-    text-align: left;
-    font-size: 24px;
-    padding-left: 5px;
-}
-
 .txt-row p {
     margin-top: 10px;
     margin-bottom: 25px;
 }
 
 /* Navbar */
+.navleft {
+    float: left;
+    display: block;
+    margin-left: 120px;
+
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -176,18 +191,4 @@ li a:hover {
 
 .active {
     background-color: #4CAF50;
-}
-
-/* Configs */
-
-.color-home {
-    background-color: rgb(171,7,33);
-    border: 3px solid #440203;
-}
-
-.navleft {
-    float: left;
-    display: block;
-    margin-left: 120px;
-
 }
