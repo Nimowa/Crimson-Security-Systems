@@ -127,6 +127,26 @@ html, body {
     margin: auto;
 }
 
+.demo-body {
+    font-size: 20px;
+    text-align: center;
+    border: solid red 5px;
+    color: white;
+    background-color: black;
+    height: 450px;
+    width: 550px;
+    margin: auto;
+    margin-left: 350px;
+}
+
+.demo-right {
+    float: right;
+    display: inline-block;
+    color: white;
+    margin-right: 250px;
+    text-align: center;
+}
+
 h1 {
     font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	font-size: 100px;
@@ -138,7 +158,6 @@ h1 {
 h2 {
     font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	font-size: 45px;
-	float: inherit;
 	margin-top: 35px;
     margin-bottom: 15px;
 }
@@ -191,4 +210,22 @@ li a:hover {
 
 .active {
     background-color: #4CAF50;
+}
+
+button {
+    background-color: red; 
+    color: rgb(119,4,39);
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
 }
